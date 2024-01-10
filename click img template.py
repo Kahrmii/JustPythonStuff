@@ -19,7 +19,7 @@ def rightclick(x,y):
     win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTUP,0,0)
     
 while keyboard.is_pressed('q') == False:
-    cord = pyautogui.locateCenterOnScreen('C:\\Users\\a.frost\\Desktop\\py\\IMGs\\wiederherstellen.png', region=(250,250,800,800), confidence=0.8)
+    cord = pyautogui.locateCenterOnScreen('C:\\Users\\%USERS%\\Desktop\\py\\IMGs\\wiederherstellen.png', region=(250,250,800,800), confidence=0.8)
     if cord:
         x,y = cord
         time.sleep(0.1)
