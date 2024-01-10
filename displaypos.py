@@ -1,3 +1,4 @@
+#!/user/bin python3
 import pyautogui
 import keyboard
     
