@@ -24,4 +24,3 @@ while keyboard.is_pressed('q') == False:
         x,y = cord
         time.sleep(0.1)
         leftclick(x,y)
-        time.sleep(1)
