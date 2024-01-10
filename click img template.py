@@ -1,3 +1,4 @@
+#!/user/bin python3
 import pyautogui
 import keyboard
 import win32api, win32con
